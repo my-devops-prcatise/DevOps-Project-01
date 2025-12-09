@@ -1,0 +1,13 @@
+name: Deploying a Java Application on AWS 3 tier architecture
+
+on:
+  push:
+   branches: ["main"]
+
+jobs:
+   deploy:
+   runs-on: ubuntu-latest
+
+   steps:
+   - name: actions/checkout@v4
+   
